@@ -21,10 +21,10 @@ test("One euro should be 1.206 dollars", function(){
 
 test("Prueba de dolares", function(){
 
-    expect(fromDollarToYen(1)).toBe(127.9); 
+    expect(fromDollarToYen(1)).toBe(106.58); 
     
 })
 test("prueba de yenes ", function(){
-    expect(fromYanToPound(1)).toBe(0.8); 
+    expect(fromYanToPound(1)).toBe(0.0063); 
     
 })
